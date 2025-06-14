@@ -5,7 +5,11 @@ import { Toaster } from "@/components/ui/toaster";
 export const metadata: Metadata = {
   title: 'Raghuveer Construction - Building Your Vision',
   description: 'Raghuveer Construction offers expert project management, design, and construction services. Let us build your vision.',
+  icons: {
+    icon: '/logo.png',
+  },
 };
+
 
 export default function RootLayout({
   children,
